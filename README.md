@@ -19,7 +19,7 @@ project/
 ├── easyeda2kicad_batch.py  # The main script
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Install Requirements
 Make sure you have:
