@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 # === Config ===
-excel_file = 'ELM_BOARD LCSC.xlsx'
+excel_file = 'LCSC_Board.xlsx'
 temp_csv_file = 'components_temp.csv'
 log_file = 'error_log.txt'
 imported_file = 'imported_ids.txt'
@@ -62,3 +62,4 @@ with open(temp_csv_file, newline='') as f_csv, \
 
 # === Step 4: Optional Cleanup ===
 # os.remove(temp_csv_file)
+
