@@ -32,12 +32,9 @@ Make sure you have:
 
 ### 2. Prepare Your Excel File
 
-Create a `.xlsx` file (e.g. `components.xlsx`) with a column containing LCSC part numbers. The column can be named:
+Create a `.xlsx` file (e.g. `LCSC_Board.xlsx`) with a column containing LCSC part numbers. The column name should containt LCSC.
 
-- `LCSC`
-- `LCSC Part`
-- `LCSC#`
-- etc. (script will auto-detect)
+
 
 ### 3. Run the Script
 
@@ -78,18 +75,8 @@ imported_file = 'imported_ids.txt'
   [WARNING] This id is already in ...
   [ERROR] Use --overwrite to update ...
   ```
-  These are not treated as fatal errors by the script — the part is considered already imported.
-
-- If you want to force re-import, delete the `imported_ids.txt` or add `--overwrite` to the `easyeda2kicad` command in the script.
+  The part is already imported. If you want to force re-import, delete the `imported_ids.txt` or add `--overwrite` to the `easyeda2kicad` command in the script.
 
 ---
 
-## 📄 License
 
-MIT
-
----
-
-## 🧠 Credits
-
-Developed by Javier Bermejo during his internship at [das-Nano](https://www.das-nano.com) as part of a project adapting electronic board designs for LCSC/JLCPCB compatibility.
