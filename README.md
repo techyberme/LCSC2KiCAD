@@ -1,6 +1,6 @@
 # EasyEDA2KiCAD Batch Import Tool
 
-This script automates the process of importing component models from LCSC using the [easyeda2kicad](https://github.com/Bouni/easyeda2kicad) CLI tool. You simply provide an Excel file (`LCSC_Board.xlsx`) with a column containing LCSC part numbers, and the script will:
+This script automates the process of importing component models from LCSC using the [easyeda2kicad](https://github.com/enduity/easyeda2kicad) CLI tool. You simply provide an Excel file (`LCSC_Board.xlsx`) with a column containing LCSC part numbers, and the script will:
 
 - Convert the Excel file to CSV
 - Skip blank or already imported LCSC parts
